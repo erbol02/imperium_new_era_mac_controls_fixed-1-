@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/models/medieval_house.glb" id="1"]
+
+[node name="SmallHouse" type="Node3D"]
+scale = Vector3(0.98, 0.98, 0.98)
+
+[node name="Model" parent="." instance=ExtResource("1")]

@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/models/warehouse.glb" id="1"]
+
+[node name="Warehouse" type="Node3D"]
+scale = Vector3(0.86, 0.86, 0.86)
+
+[node name="Model" parent="." instance=ExtResource("1")]
